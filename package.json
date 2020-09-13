@@ -1,0 +1,50 @@
+{
+  "bugs": {
+    "url": "https://github.com/tegila/node-red-contrib-amqp/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Amo DelBello",
+      "email": "adelbello@meowwolf.com"
+    }, {
+      "name": "Edson Tegila",
+      "email": null
+  ],
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "rimraf": "^3.0.2"
+  },
+  "deprecated": false,
+  "description": "Amqp nodes for node-red"
+  },
+  "files": [
+    "src",
+    "examples"
+  ],
+  "homepage": "https://github.com/tegila/node-red-contrib-amqp#readme",
+  "keywords": [
+    "node-red",
+    "amqp",
+    "rabbitmq",
+    "tegila"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@tegila/node-red-contrib-amqp",
+  "node-red": {
+    "nodes": {
+      "amqp-in": "src/nodes/amqp-in.js",
+      "amqp-out": "src/nodes/amqp-out.js",
+      "amqp-broker": "src/nodes/amqp-broker.js",
+      "amqp-in-manual-ack": "src/nodes/amqp-in-manual-ack.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tegila/node-red-contrib-amqp.git"
+  },
+  "scripts": {
+  },
+  "version": "1.0.3b"
+}
